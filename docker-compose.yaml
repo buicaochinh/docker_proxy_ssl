@@ -1,0 +1,5 @@
+version: 3
+services:
+  proxy:
+    image: nginx:latest
+    ports: "443:443"
